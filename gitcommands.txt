@@ -1,0 +1,10 @@
+Four stages :
+untracked files - initial stages of all files
+unstaged changes - files already in tracking of git (initially nothing will be here, only if any changes made to previously committed file, that will be stored here)
+staged changes - git add command to add all file that's ready to be committed
+commit - bundled for version controll
+
+git init  => creates empty repo and all files will be in untracked files 
+git status => shows untracked files
+git add foldername/filename => pushes folder/file to staging area
+git add . => adds everything to staging area
