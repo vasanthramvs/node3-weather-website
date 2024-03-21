@@ -8,3 +8,5 @@ git init  => creates empty repo and all files will be in untracked files
 git status => shows untracked files
 git add foldername/filename => pushes folder/file to staging area
 git add . => adds everything to staging area
+git commit => commits to git
+git commit -m "Initial commit" => same as above but with a message
