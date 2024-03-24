@@ -16,3 +16,10 @@ ls -a -l ~/.ssh
 ssh-keygen -t -rsa -b 4096 -C "gmailID"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
+
+git remote add origin githuburl  -> origin is the name we give, also we can change 
+
+cat ~/.ssh/id_rsa.pub  => copy all and paste in ssh key in github (in settings)
+ssh -T git@github.com  +> give yes and enter
+git branch -M main
+git push -u origin main
