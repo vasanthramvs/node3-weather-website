@@ -23,3 +23,9 @@ cat ~/.ssh/id_rsa.pub  => copy all and paste in ssh key in github (in settings)
 ssh -T git@github.com  +> give yes and enter
 git branch -M main
 git push -u origin main
+
+
+HEROKU -----
+heroku keys:add
+
+heroku create (name)
